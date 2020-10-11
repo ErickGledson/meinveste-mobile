@@ -27,10 +27,10 @@ const AboutContent: React.FC<AboutContentProps> = ({ first, children, number, de
     }
     return (
         <View style={style.container}>
-            <Text style={style.numberText}>01.</Text>
-            <Text style={style.descriptionText}>Faça investimentos e apoie Pequenos Negócios</Text>
+            <Text style={style.numberText}>{number}</Text>
+            <Text style={style.descriptionText}>{description}</Text>
 
-            <Image source={pages} style={{ marginTop: 40, transform: [{ rotate: "180deg" }] }} />
+            <Image source={pages} style={{ marginTop: 40, transform: [{ rotate: "-180deg" }] }} />
             
             {children}
         </View>

@@ -10,12 +10,15 @@ const style = StyleSheet.create({
         fontFamily: "Poppins_500Medium",
         fontSize: 40,
         color: "#E3BDBC",
+        marginTop: -40,
+        marginBottom: 30
     },
     descriptionText: {
         fontFamily: "Poppins_400Regular",
         fontSize: 26,
         color: "#E3BDBC",
-    }
+        marginBottom: 25
+    },
 })
 
 export default style;

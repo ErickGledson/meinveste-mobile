@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "getNet-mobilr",
-    "slug": "getNet-mobilr",
+    "name": "getnet-mobile",
+    "slug": "getnet-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

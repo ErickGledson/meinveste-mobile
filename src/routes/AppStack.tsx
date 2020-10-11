@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import Home from '../pages/Home';
 import AboutPage01 from '../pages/About/AboutPage01';
 import AboutPage02 from '../pages/About/AboutPage02';
+import Landing from '../pages/Landing';
 
 const { Screen, Navigator } = createStackNavigator();
 
@@ -14,8 +15,10 @@ function AppStack() {
             <Navigator screenOptions={{ headerShown: false }}>
 
                 <Screen name='AboutPage' component={AboutPage01} />
-
                 <Screen name='Alt-AboutPage' component={AboutPage02} />
+
+                <Screen name='Landing' component={Landing} />
+
 
                 <Screen name='Home' component={Home} />
 

@@ -15,7 +15,7 @@ import {
 } from '@expo-google-fonts/ubuntu';
 
 import AppStack from './src/routes/AppStack';
-import { AppLoading } from 'expo';
+import AppLoading from './src/pages/AppLoading';
 
 export default function App() {
   let [fontsLoaded] = useFonts({

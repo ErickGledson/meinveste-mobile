@@ -9,14 +9,14 @@ const style = StyleSheet.create({
     numberText: {
         fontFamily: "Poppins_500Medium",
         fontSize: 40,
-        color: "#E3BDBC",
+        color: "white",
         marginTop: -40,
         marginBottom: 30
     },
     descriptionText: {
         fontFamily: "Poppins_400Regular",
         fontSize: 26,
-        color: "#E3BDBC",
+        color: "white",
         marginBottom: 25
     },
 })

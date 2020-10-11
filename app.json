@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "getnet-mobile",
-    "slug": "getnet-mobile",
+    "name": "meinveste-mobile",
+    "slug": "meinveste-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

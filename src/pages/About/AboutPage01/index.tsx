@@ -22,8 +22,8 @@ const AboutPage01: React.FC = () => {
       <Image source={illustration} style={{ alignSelf: "center" }} />
 
       <AboutContent first={true} number="01." description="Faça investimentos e apoie Pequenos Negócios">
-        <BorderlessButton onPress={handleNavigateToNext}>
-          <Image source={goNext} style={{ alignSelf: "flex-end", marginTop: 20 }} />
+        <BorderlessButton onPress={handleNavigateToNext} style={style.bordelessButton}>
+          <Image source={goNext} />
         </BorderlessButton>
       </AboutContent>
     </View>

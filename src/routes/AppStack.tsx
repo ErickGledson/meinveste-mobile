@@ -6,6 +6,7 @@ import Home from '../pages/Home';
 import AboutPage01 from '../pages/About/AboutPage01';
 import AboutPage02 from '../pages/About/AboutPage02';
 import Landing from '../pages/Landing';
+import Login from '../pages/Login';
 
 const { Screen, Navigator } = createStackNavigator();
 
@@ -18,7 +19,7 @@ function AppStack() {
                 <Screen name='Alt-AboutPage' component={AboutPage02} />
 
                 <Screen name='Landing' component={Landing} />
-
+                <Screen name='Login' component={Login} />
 
                 <Screen name='Home' component={Home} />
 

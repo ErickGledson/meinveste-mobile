@@ -19,7 +19,17 @@ const style = StyleSheet.create({
         backgroundColor: '#22818E',
         alignItems: "center",
         justifyContent: "center",
-        marginTop: -40
+        marginTop: -40,
+
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 4,
+        },
+        shadowOpacity: 0.30,
+        shadowRadius: 4.65,
+
+        elevation: 8,
     },
     loginButtonText: {
         fontFamily: 'Ubuntu_400Regular',

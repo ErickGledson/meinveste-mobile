@@ -14,9 +14,13 @@ const Landing: React.FC = () => {
     navigate('Login')
   }
 
+  function handleNavigateToRegister() {
+    navigate('Register')
+  }
+
   return (
     <View style={style.container}>
-      <Image source={illustration} style={{marginTop: 40}}/>
+      <Image source={illustration} style={{ marginTop: 40 }} />
 
       <Text style={style.welcomeText}>BEM-VINDO</Text>
 
@@ -26,7 +30,9 @@ const Landing: React.FC = () => {
 
       <View style={style.noAccount}>
         <Text style={style.noAccountText}>Não tem uma conta?</Text>
-        <Text style={style.altNoAccountText}>Cadastre-se</Text>
+        <RectButton onPress={handleNavigateToRegister}>
+          <Text style={style.altNoAccountText}>Cadastre-se</Text>
+        </RectButton>
       </View>
 
     </View>

@@ -13,9 +13,10 @@
 - React Native
 - Expo
 - Typescript
+- Axios
 
 ## 🎨 Layout
-- [Figma](https://www.figma.com)
+- [Figma](https://www.figma.com/file/eqiz0tbQhqvSf2TzJbu8O6/MEInvest?node-id=0%3A1)
 
 ## 🤖 Equipe
 - [Bianca](https://github.com/bkkater)
@@ -25,8 +26,11 @@
 - [Erick](https://github.com/ErickGledson)
 
 
-## 📏 Mentoras
-...
+## 📏 Mentores
+- [Uandisson ](https://www.linkedin.com/in/uandisson/)
+- [Priscila Guedes]()
+- [Jose Fernandes]()
+- [Tiago Ortolani]()
 
 
 ### 📱 Como Rodar o Projeto

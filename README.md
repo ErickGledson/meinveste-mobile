@@ -28,9 +28,9 @@
 
 ## 📏 Mentores
 - [Uandisson ](https://www.linkedin.com/in/uandisson/)
-- [Priscila Guedes]()
-- [Jose Fernandes]()
-- [Tiago Ortolani]()
+- [Priscila Guedes](https://www.linkedin.com)
+- [Jose Fernandes](https://www.linkedin.com)
+- [Tiago Ortolani](https://www.linkedin.com)
 
 
 ### 📱 Como Rodar o Projeto

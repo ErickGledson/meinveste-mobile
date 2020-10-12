@@ -1,8 +1,9 @@
 import React from 'react';
-import { View } from 'react-native';
-import { TextField } from '@material-ui/core'
+import { View, Text } from 'react-native';
+import { RectButton } from 'react-native-gesture-handler';
 
 import Header from '../../components/Header';
+import Input from '../../components/Input';
 
 import style from './styles';
 
@@ -11,7 +12,14 @@ const Login: React.FC = () => {
     <View style={style.container}>
       <Header menu={false} />
 
-      <TextField id="standard-basic" label="Standard" />
+      <View style={style.form}>
+        <Input label='Email' type='emailAddress'/>
+        <Input label='Senha' type='password'/>
+      </View>
+
+      <RectButton style={style.loginButton}>
+        <Text style={style.loginButtonText}>Entrar</Text>
+      </RectButton>
     </View>
   );
 }

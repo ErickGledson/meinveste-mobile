@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
+import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper'
 import React from 'react';
 
 import {
@@ -17,6 +18,16 @@ import {
 import AppStack from './src/routes/AppStack';
 import AppLoading from './src/pages/AppLoading';
 
+const theme = {
+  ...DefaultTheme,
+  roundness: 2,
+  colors: {
+    ...DefaultTheme.colors,
+    primary: '#1D6873',
+    accent: '#f1c40f',
+  },
+};
+
 export default function App() {
   let [fontsLoaded] = useFonts({
     Poppins_400Regular,
@@ -31,10 +42,10 @@ export default function App() {
     return <AppLoading />;
   } else {
     return (
-      <>
+      <PaperProvider theme={theme}>
         <AppStack />
         <StatusBar style="light" />
-      </>
+      </PaperProvider>
     );
   }
 }

@@ -6,6 +6,7 @@ import style from './styles';
 import finalIllustration from '../../assets/images/final-illustration.png'
 import illustration from '../../assets/images/illustration-newProject.png'
 import { RectButton } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
 
 
 interface ContainerProps {
@@ -16,6 +17,12 @@ interface ContainerProps {
 }
 
 const Container: React.FC<ContainerProps> = ({ textOne, final, textTwo }) => {
+    const { navigate } = useNavigation();
+    
+    function handleNavigateToData() {
+        navigate('CompanyOwner')
+    }
+
     if (final) {
         return (
             <View style={style.container}>
@@ -23,7 +30,7 @@ const Container: React.FC<ContainerProps> = ({ textOne, final, textTwo }) => {
                 <Image source={finalIllustration} style={{marginBottom: 30}} />
                 <Text style={style.containerText}>{textTwo}</Text>
 
-                <RectButton style={style.loginButton}>
+                <RectButton style={style.loginButton} onPress={handleNavigateToData}>
                     <Text style={[style.loginButtonText]}>Começar</Text>
                 </RectButton>
             </View>
@@ -36,7 +43,7 @@ const Container: React.FC<ContainerProps> = ({ textOne, final, textTwo }) => {
             <Text style={style.containerText}>{textTwo}</Text>
 
 
-            <RectButton style={style.loginButton}>
+            <RectButton style={style.loginButton} onPress={handleNavigateToData}>
                 <Text style={style.loginButtonText}>Começar</Text>
             </RectButton>
         </View>

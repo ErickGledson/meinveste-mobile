@@ -2,22 +2,17 @@ import { StyleSheet } from 'react-native'
 
 const style = StyleSheet.create({
     newProject: {
-        width: "60%",
-        height: 60,
+        width: 70,
+        height: 70,
+        alignSelf: "flex-end",
+        margin: 20,
+        marginTop: 0,
         backgroundColor: '#67D0DE',
-        alignSelf: "center",
-        marginTop: 20,
         alignItems: "center",
         flexDirection: "row",
         justifyContent: "center",
-        borderRadius: 6
+        borderRadius: 100
     },
-    newProjectText: {
-        fontFamily: "Poppins_500Medium",
-        fontSize: 20,
-        color: "white",
-        marginRight: 20
-    }
 })
 
 export default style;

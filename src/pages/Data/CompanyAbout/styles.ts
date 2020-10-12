@@ -8,6 +8,7 @@ const style = StyleSheet.create({
         fontFamily: "Poppins_600SemiBold",
         fontSize: 23,
         color: "#032E4E",
+        marginBottom: 10
     },
     loginButton: {
         width: 180,
@@ -17,7 +18,7 @@ const style = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         alignSelf: "flex-end",
-        marginTop: 30,
+        marginTop: 50,
         marginBottom: 30,
 
         shadowColor: "#000",
@@ -34,6 +35,13 @@ const style = StyleSheet.create({
         fontFamily: 'Ubuntu_400Regular',
         color: 'white',
         fontSize: 18
+    },
+    subtitle: {
+        fontFamily: "Poppins_500Medium",
+        fontSize: 20,
+        color: "#032E4E",
+        marginTop: 40,
+        marginBottom: 20
     },
 })
 

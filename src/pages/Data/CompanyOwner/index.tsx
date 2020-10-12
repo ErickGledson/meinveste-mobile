@@ -6,6 +6,7 @@ import { useNavigation } from '@react-navigation/native';
 import Input from '../../../components/Input';
 import style from './styles';
 import Header from '../../../components/Header';
+import StatePicker from '../../../components/StatePicker';
 
 
 const CompanyOwner: React.FC = () => {
@@ -35,7 +36,7 @@ const CompanyOwner: React.FC = () => {
 
                     <View>
                         <Input type='postalCode' label='CEP'></Input>
-                        <Input type='AddressState' label='Estado'></Input>
+                        <StatePicker/>
                         <Input type='none' label='Bairro'></Input>
                         <Input type='none' label='Endereço'></Input>
                         <Input type='none' label='Complemento'></Input>

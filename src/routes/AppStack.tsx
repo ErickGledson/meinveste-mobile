@@ -12,6 +12,7 @@ import CompanyOwner from '../pages/Data/CompanyOwner';
 import Company from '../pages/Data/Company';
 import CompanyAbout from '../pages/Data/CompanyAbout';
 import Finished from '../pages/Finished';
+import Financial from '../pages/Data/Financial';
 
 const { Screen, Navigator } = createStackNavigator();
 
@@ -32,9 +33,9 @@ function AppStack() {
                 <Screen name='CompanyOwner' component={CompanyOwner} />
                 <Screen name='Company' component={Company} />
                 <Screen name='CompanyAbout' component={CompanyAbout} />
+                <Screen name='Financial' component={Financial} />
 
                 <Screen name='Finished' component={Finished} />
-
 
 
             </Navigator>

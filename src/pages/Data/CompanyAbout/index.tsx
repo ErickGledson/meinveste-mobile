@@ -6,12 +6,13 @@ import style from './styles'
 import Header from '../../../components/Header';
 import { RectButton, ScrollView } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
+import SegmentPicker from '../../../components/SegmentPicker';
 
 const CompanyAbout: React.FC = () => {
     const { navigate } = useNavigation();
 
-    function handleNavigateToFinished(){
-        navigate('Finished')
+    function handleNavigateToFinancial(){
+        navigate('Financial')
     }
 
     return (
@@ -22,14 +23,16 @@ const CompanyAbout: React.FC = () => {
                 <View style={{ padding: 20 }}>
                     <Text style={style.title}>Conte um pouco mais do seu Negócio</Text>
 
-                    <Input type='none' label='Segmento de Mercado'></Input>
+                    <SegmentPicker/>
                     <Input type='none' label='Data de Abertura'></Input>
                     <Input type='none' label='Descrição breve de atividades'></Input>
 
-                    <Input type='none' label='Seu negócio gera algum impacto na sociedade?'></Input>
+
+                    <Text style={style.subtitle}>Seu negócio gera algum impacto na sociedade?</Text>
+                    <Input type='none' label='Impacto do seu negócio'></Input>
 
 
-                    <RectButton style={style.loginButton} onPress={handleNavigateToFinished}>
+                    <RectButton style={style.loginButton} onPress={handleNavigateToFinancial}>
                         <Text style={[style.loginButtonText]}>Próximo</Text>
                     </RectButton>
                 </View>

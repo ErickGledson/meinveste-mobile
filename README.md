@@ -22,7 +22,7 @@
 - [Juliana](https://www.linkedin.com/in/juliana-talita-b683581b2/)
 - [Eduarda](https://www.linkedin.com/in/eduarda-barboza-tavares-612a55159/)
 - [Jhennifer](https://www.linkedin.com/in/jhennifer-pimentel-0518171b2/)
-- [Erick](https://www.linkedin.com)
+- [Erick](https://github.com/ErickGledson)
 
 
 ## 📏 Mentoras

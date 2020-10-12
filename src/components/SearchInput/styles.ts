@@ -26,8 +26,9 @@ const style = StyleSheet.create({
     },
     textInput: {
         fontFamily: 'Ubuntu_400Regular',
-        color: '#AEAEB4',
-        fontSize: 16
+        color: 'gray',
+        fontSize: 16,
+        width: 200
     }
 })
 

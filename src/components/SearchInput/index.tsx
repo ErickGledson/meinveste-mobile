@@ -6,7 +6,7 @@ import style from './styles';
 import { RectButton } from 'react-native-gesture-handler';
 
 const SearchInput: React.FC = () => {
-    const [value, onChangeText] = React.useState('Procure por negócios locais');
+    const [value, onChangeText] = React.useState('');
     return (
         <View style={style.container}>
             <Feather name="map-pin" size={24} color="#871313" />
@@ -14,6 +14,7 @@ const SearchInput: React.FC = () => {
                 style={style.textInput}
                 onChangeText={text => onChangeText(text)}
                 value={value}
+                placeholder='Procure por negócios locais'
             />
             <RectButton>
                 <View style={style.searchIcon}>

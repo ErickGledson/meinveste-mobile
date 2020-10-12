@@ -8,6 +8,10 @@ import AboutPage02 from '../pages/About/AboutPage02';
 import Landing from '../pages/Landing';
 import Login from '../pages/Login';
 import NewProject from '../pages/NewProject';
+import CompanyOwner from '../pages/Data/CompanyOwner';
+import Company from '../pages/Data/Company';
+import CompanyAbout from '../pages/Data/CompanyAbout';
+import Finished from '../pages/Finished';
 
 const { Screen, Navigator } = createStackNavigator();
 
@@ -24,6 +28,14 @@ function AppStack() {
 
                 <Screen name='Home' component={Home} />
                 <Screen name='NewProject' component={NewProject} />
+
+                <Screen name='CompanyOwner' component={CompanyOwner} />
+                <Screen name='Company' component={Company} />
+                <Screen name='CompanyAbout' component={CompanyAbout} />
+
+                <Screen name='Finished' component={Finished} />
+
+
 
             </Navigator>
         </NavigationContainer>

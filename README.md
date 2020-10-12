@@ -1,5 +1,5 @@
 <h1 align ="center" display= 'flex'>
-    <img src="src/assets/images/logo.png" alt="Imagem da Logo" title="MEInveste"></img>
+    <img src="src/assets/mockup.png" alt="Imagem da Logo" title="MEInveste"></img>
 </h1>
 
 ## MEInveste 🚀 em construção... 🚧

@@ -15,6 +15,8 @@ import Finished from '../pages/Finished';
 import Financial from '../pages/Data/Financial';
 import CompanyProfile from '../pages/CompanyProfile';
 import Register from '../pages/Register';
+import MyInvestiments from '../pages/MyInvestiments';
+import Analysis from '../pages/MyInvestiments/Analysis';
 
 const { Screen, Navigator } = createStackNavigator();
 
@@ -22,7 +24,10 @@ function AppStack() {
     return (
         <NavigationContainer>
             <Navigator screenOptions={{ headerShown: false }}>
-                
+                <Screen name='MyInvestiments' component={MyInvestiments} />
+                <Screen name='Analysis' component={Analysis} />
+
+
                 <Screen name='AboutPage' component={AboutPage01} />
                 <Screen name='Alt-AboutPage' component={AboutPage02} />
 

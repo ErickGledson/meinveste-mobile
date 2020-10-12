@@ -1,9 +1,8 @@
+## MEInveste 🚀 em construção... 🚧
+
 <h1 align ="center" display= 'flex'>
     <img src="src/assets/mockup.png" alt="Imagem da Logo" title="MEInveste"></img>
 </h1>
-
-## MEInveste 🚀 em construção... 🚧
-
 
 ## 💻 Sobre o projeto
 A MEInveste busca ajudar os microempreendedores a terem sucesso em seus negócios, levando segurança e descomplicando a burocracia dos serviços financeiros.

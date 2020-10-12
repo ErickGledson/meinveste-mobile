@@ -24,9 +24,6 @@ function AppStack() {
     return (
         <NavigationContainer>
             <Navigator screenOptions={{ headerShown: false }}>
-                <Screen name='MyInvestiments' component={MyInvestiments} />
-                <Screen name='Analysis' component={Analysis} />
-
 
                 <Screen name='AboutPage' component={AboutPage01} />
                 <Screen name='Alt-AboutPage' component={AboutPage02} />
@@ -45,6 +42,9 @@ function AppStack() {
                 <Screen name='Financial' component={Financial} />
 
                 <Screen name='Finished' component={Finished} />
+
+                <Screen name='MyInvestiments' component={MyInvestiments} />
+                <Screen name='Analysis' component={Analysis} />
 
             </Navigator>
         </NavigationContainer>

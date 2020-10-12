@@ -18,14 +18,14 @@ const Header: React.FC<HeaderProps> = ({ menu }, props) => {
     if (menu) {
         return (
             <View style={style.container}>
-                <BorderlessButton onPress={() => navigation.goBack()} style={{height: '100%'}}>
+                <BorderlessButton onPress={() => navigation.goBack()} >
                     <Ionicons name="ios-arrow-back" size={35} color="white" />
                 </BorderlessButton>
 
 
-                <Image source={logo} />
+                <Image source={logo} style={{ marginLeft: 15 }} />
 
-                <Feather name="align-right" size={24} color="white" />
+                <Feather name="align-right" size={35} color="white" />
             </View>
         )
     }
